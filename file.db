@@ -1,3 +1,9 @@
+##
+## for i in {1..30}
+## do
+## echo "line $i: $RANDOM" >> file.db
+## done
+##
 line 1: 26965
 line 2: 2263
 line 3: 6875
