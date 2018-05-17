@@ -1,0 +1,3 @@
+a=$(< exch.json jq .[0].buy)
+a=${a:1:-1}
+~/telegram/telegram "USD: $a" >>/dev/null
